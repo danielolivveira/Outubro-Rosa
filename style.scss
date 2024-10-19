@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header{
+    //border: solid 2px blue;
+    height: 15vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   @media (max-width: 770px){
+    flex-direction: column;
+    height: 30vh;
+   }
+}
+
+.BoxLogo{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    @media (max-width: 770px){
+      flex-direction: column;  
+      width: 100%;
+    }
+
+    h1{
+        font-size: 1.7vw;
+        font-weight: 400;
+        @media (max-width: 770px){
+            font-size: 2.5vw;
+        }
+        @media (max-width: 500px){
+            font-size: 3.1vw;
+        }
+    }
+    img{
+        @media (max-width: 1000px){
+            width: 9vw;
+        }
+        @media (max-width: 770px){
+            width: 12vw;
+        }
+        @media (max-width: 500px){
+            width: 15vw;
+        }
+    }
+}
+
+nav{
+    // border: solid 2px yellow;  
+    width: 40vw;
+    @media (max-width: 770px){
+        width: 100%;
+    }
+    ul{
+      display: flex; 
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.5vw; 
+      @media (max-width: 770px){
+        justify-content: space-evenly;
+        font-size: 2.3vw;
+    }
+    @media (max-width: 500px){
+        font-size: 3vw;
+    }
+      a{
+        color: white;
+      }
+    }
+}
+
+//------------MAIN------------
+
+.sessaoSobre{
+    //border: solid 2px;
+    height: 60vh;
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @media (max-width: 600px){
+        flex-direction: column-reverse;
+        height: 70vh;
+    }
+    p{
+        //border: solid 2px red;
+        width: 38vw;
+        font-size: 1.5vw;
+        @media (max-width: 800px){
+            font-size: 2vw;
+            width: 40vw;
+        }
+        @media (max-width: 600px){
+            width: 70vw;
+            font-size: 2.4vw;
+        }
+        @media (max-width: 450px){
+            font-size: 3vw;
+            width: 75vw;
+        }
+    }
+    img{
+        width: 25vw;
+        @media (max-width: 800px){
+            width: 30vw;
+        }
+        @media (max-width: 600px){
+            width: 34vw;
+        }
+        @media (max-width: 450px){
+            width: 47vw;
+        }
+    }
+}
+
+.sessaoConscientizaçao{
+    //border: solid 2px;
+    height: 50vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @media (max-width: 600px){
+        flex-direction: column-reverse;
+        height: 70vh;
+    }
+    p{
+        //border: solid 2px red;
+        width: 38vw;
+        font-size: 1.5vw;
+        @media (max-width: 800px){
+            font-size: 2vw;
+            width: 40vw;
+        }
+        @media (max-width: 600px){
+            width: 70vw;
+            font-size: 2.4vw;
+        }
+        @media (max-width: 450px){
+            font-size: 3vw;
+            width: 75vw;
+        }
+    }
+    img{
+        width: 35vw;
+        @media (max-width: 800px){
+            width: 40vw;
+        }
+        @media (max-width: 600px){
+            width: 44vw;
+        }
+        @media (max-width: 450px){
+            width: 57vw;
+        }
+    }
+}
+
+.dicas{
+    height: 55vh;
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @media (max-width: 600px){
+        flex-direction: column-reverse;
+        height: 60vh;
+    }
+    img{
+        width: 35vw;
+        @media (max-width: 800px){
+            width: 20vw;
+        }
+        @media (max-width: 600px){
+            width: 16vw;
+        }
+        @media (max-width: 450px){
+            width: 20vw;
+        }
+    }
+}
+
+footer{
+    height: 16vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   section{
+    //border: solid 2px red;
+    width: 60vw;
+   }
+   li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   }
+}

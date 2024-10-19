@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 770px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
+}
+
+.BoxLogo {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+@media (max-width: 770px) {
+  .BoxLogo {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.BoxLogo h1 {
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+@media (max-width: 770px) {
+  .BoxLogo h1 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .BoxLogo h1 {
+    font-size: 3.1vw;
+  }
+}
+@media (max-width: 1000px) {
+  .BoxLogo img {
+    width: 9vw;
+  }
+}
+@media (max-width: 770px) {
+  .BoxLogo img {
+    width: 12vw;
+  }
+}
+@media (max-width: 500px) {
+  .BoxLogo img {
+    width: 15vw;
+  }
+}
+
+nav {
+  width: 40vw;
+}
+@media (max-width: 770px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+}
+@media (max-width: 770px) {
+  nav ul {
+    justify-content: space-evenly;
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px) {
+  nav ul {
+    font-size: 3vw;
+  }
+}
+nav ul a {
+  color: white;
+}
+
+.sessaoSobre {
+  height: 60vh;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+  .sessaoSobre {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+}
+.sessaoSobre p {
+  width: 38vw;
+  font-size: 1.5vw;
+}
+@media (max-width: 800px) {
+  .sessaoSobre p {
+    font-size: 2vw;
+    width: 40vw;
+  }
+}
+@media (max-width: 600px) {
+  .sessaoSobre p {
+    width: 70vw;
+    font-size: 2.4vw;
+  }
+}
+@media (max-width: 450px) {
+  .sessaoSobre p {
+    font-size: 3vw;
+    width: 75vw;
+  }
+}
+.sessaoSobre img {
+  width: 25vw;
+}
+@media (max-width: 800px) {
+  .sessaoSobre img {
+    width: 30vw;
+  }
+}
+@media (max-width: 600px) {
+  .sessaoSobre img {
+    width: 34vw;
+  }
+}
+@media (max-width: 450px) {
+  .sessaoSobre img {
+    width: 47vw;
+  }
+}
+
+.sessaoConscientizaçao {
+  height: 50vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+  .sessaoConscientizaçao {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+}
+.sessaoConscientizaçao p {
+  width: 38vw;
+  font-size: 1.5vw;
+}
+@media (max-width: 800px) {
+  .sessaoConscientizaçao p {
+    font-size: 2vw;
+    width: 40vw;
+  }
+}
+@media (max-width: 600px) {
+  .sessaoConscientizaçao p {
+    width: 70vw;
+    font-size: 2.4vw;
+  }
+}
+@media (max-width: 450px) {
+  .sessaoConscientizaçao p {
+    font-size: 3vw;
+    width: 75vw;
+  }
+}
+.sessaoConscientizaçao img {
+  width: 35vw;
+}
+@media (max-width: 800px) {
+  .sessaoConscientizaçao img {
+    width: 40vw;
+  }
+}
+@media (max-width: 600px) {
+  .sessaoConscientizaçao img {
+    width: 44vw;
+  }
+}
+@media (max-width: 450px) {
+  .sessaoConscientizaçao img {
+    width: 57vw;
+  }
+}
+
+.dicas {
+  height: 55vh;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+  .dicas {
+    flex-direction: column-reverse;
+    height: 60vh;
+  }
+}
+.dicas img {
+  width: 35vw;
+}
+@media (max-width: 800px) {
+  .dicas img {
+    width: 20vw;
+  }
+}
+@media (max-width: 600px) {
+  .dicas img {
+    width: 16vw;
+  }
+}
+@media (max-width: 450px) {
+  .dicas img {
+    width: 20vw;
+  }
+}
+
+footer {
+  height: 16vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer section {
+  width: 60vw;
+}
+footer li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
